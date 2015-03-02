@@ -15930,14 +15930,14 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <sheets>
 <sheet>
 <plain>
-<text x="17.78" y="21.844" size="1.778" layer="150">Close jumpers and cut former traces to enable SPI mode. Default is I2C.</text>
-<wire x1="0" y1="119.38" x2="147.32" y2="119.38" width="0.1524" layer="150" style="longdash"/>
-<wire x1="147.32" y1="119.38" x2="147.32" y2="185.42" width="0.1524" layer="150" style="longdash"/>
-<wire x1="147.32" y1="35.56" x2="147.32" y2="119.38" width="0.1524" layer="150" style="longdash"/>
-<text x="50.8" y="180.34" size="1.778" layer="150">VDD Range: 1.9-3.6V</text>
-<text x="2.54" y="180.34" size="1.778" layer="150">LSM9DS1</text>
-<text x="149.86" y="180.34" size="1.778" layer="150">Spark Photon</text>
-<text x="2.54" y="114.3" size="1.778" layer="150">Jumpers</text>
+<text x="17.78" y="21.844" size="1.778" layer="97">Close jumpers and cut former traces to enable SPI mode. Default is I2C.</text>
+<wire x1="0" y1="119.38" x2="147.32" y2="119.38" width="0.1524" layer="97" style="longdash"/>
+<wire x1="147.32" y1="119.38" x2="147.32" y2="185.42" width="0.1524" layer="97" style="longdash"/>
+<wire x1="147.32" y1="35.56" x2="147.32" y2="119.38" width="0.1524" layer="97" style="longdash"/>
+<text x="50.8" y="180.34" size="1.778" layer="97">VDD Range: 1.9-3.6V</text>
+<text x="2.54" y="180.34" size="1.778" layer="97">LSM9DS1</text>
+<text x="149.86" y="180.34" size="1.778" layer="97">Spark Photon</text>
+<text x="2.54" y="114.3" size="1.778" layer="97">Jumpers</text>
 <text x="48.26" y="104.394" size="2.54" layer="97" align="center">SDOM/AG</text>
 <text x="88.646" y="98.552" size="2.54" layer="97" align="center">0x1C
 0x1E</text>
@@ -15965,7 +15965,7 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 0x6B</text>
 <text x="68.58" y="111.76" size="2.032" layer="97" align="center">Set the SDO_G and SDO_XM to set the
 gyro and accel/mag I2C addresses:</text>
-<wire x1="147.32" y1="119.38" x2="248.92" y2="119.38" width="0.2032" layer="150" style="longdash"/>
+<wire x1="147.32" y1="119.38" x2="248.92" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <text x="149.86" y="114.3" size="1.778" layer="150">Header</text>
 </plain>
 <instances>
@@ -16152,7 +16152,7 @@ gyro and accel/mag I2C addresses:</text>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="SJ8" gate="G$1" pin="3"/>
 <wire x1="114.3" y1="63.5" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
-<label x="104.14" y="60.96" size="1.778" layer="95"/>
+<label x="104.14" y="60.96" size="1.778" layer="97"/>
 <wire x1="101.6" y1="66.04" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="63.5" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
 </segment>
@@ -16187,7 +16187,7 @@ gyro and accel/mag I2C addresses:</text>
 <pinref part="SJ7" gate="G$1" pin="3"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="30.48" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
-<label x="104.14" y="27.94" size="1.778" layer="95"/>
+<label x="104.14" y="27.94" size="1.778" layer="97"/>
 <wire x1="101.6" y1="33.02" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="30.48" x2="114.3" y2="30.48" width="0.1524" layer="91"/>
 </segment>
@@ -16202,7 +16202,7 @@ gyro and accel/mag I2C addresses:</text>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="38.1" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="SJ5" gate="G$1" pin="3"/>
-<label x="33.02" y="27.94" size="1.778" layer="95"/>
+<label x="33.02" y="27.94" size="1.778" layer="97"/>
 <wire x1="30.48" y1="33.02" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
 </segment>
@@ -16217,7 +16217,7 @@ gyro and accel/mag I2C addresses:</text>
 <pinref part="SJ4" gate="G$1" pin="3"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="38.1" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
-<label x="68.58" y="27.94" size="1.778" layer="95"/>
+<label x="68.58" y="27.94" size="1.778" layer="97"/>
 <wire x1="66.04" y1="33.02" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="30.48" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
 </segment>
@@ -16242,7 +16242,7 @@ gyro and accel/mag I2C addresses:</text>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="71.12" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="SJ6" gate="G$1" pin="3"/>
-<label x="33.02" y="60.96" size="1.778" layer="95"/>
+<label x="33.02" y="60.96" size="1.778" layer="97"/>
 <wire x1="30.48" y1="66.04" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 </segment>
@@ -16267,7 +16267,7 @@ gyro and accel/mag I2C addresses:</text>
 <pinref part="SJ1" gate="G$1" pin="3"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="63.5" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
-<label x="68.58" y="60.96" size="1.778" layer="95"/>
+<label x="68.58" y="60.96" size="1.778" layer="97"/>
 <wire x1="66.04" y1="66.04" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="63.5" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 </segment>
@@ -16401,6 +16401,13 @@ gyro and accel/mag I2C addresses:</text>
 <pinref part="JP2" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="93.98" x2="172.72" y2="93.98" width="0.1524" layer="91"/>
 <label x="172.72" y="93.98" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VBAT" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="VBAT"/>
+<wire x1="210.82" y1="160.02" x2="218.44" y2="160.02" width="0.1524" layer="91"/>
+<label x="218.44" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>
