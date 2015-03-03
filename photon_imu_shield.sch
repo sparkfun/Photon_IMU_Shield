@@ -15967,6 +15967,7 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 gyro and accel/mag I2C addresses:</text>
 <wire x1="147.32" y1="119.38" x2="248.92" y2="119.38" width="0.2032" layer="97" style="longdash"/>
 <text x="149.86" y="114.3" size="1.778" layer="150">Header</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector" ratio="10">v01</text>
 </plain>
 <instances>
 <instance part="JP1" gate="G$1" x="190.5" y="149.86"/>
