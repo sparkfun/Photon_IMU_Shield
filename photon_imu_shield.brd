@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -248,7 +248,10 @@ AG</text>
 M</text>
 <text x="22.098" y="31.496" size="0.8128" layer="21" font="vector" ratio="12" rot="R270" align="bottom-center">DRDY
 M</text>
-<text x="0" y="-2.54" size="1.27" layer="47" font="vector" ratio="15">Board Measurements: 1.4in x 1.4in</text>
+<dimension x1="0" y1="0" x2="35.56" y2="0" x3="17.78" y3="-6.35" textsize="0.8128" textratio="15" layer="47" dtype="diameter" unit="inch"/>
+<dimension x1="0" y1="0" x2="0" y2="35.56" x3="-11.43" y3="17.78" textsize="0.8128" textratio="15" layer="47" dtype="diameter" unit="inch"/>
+<dimension x1="2.54" y1="2.54" x2="0.889" y2="2.54" x3="1.7145" y3="-2.54" textsize="0.8128" textratio="15" layer="47" dtype="diameter" unit="inch" precision="3"/>
+<text x="0" y="-11.43" size="0.8128" layer="47" font="vector" ratio="15">Units in Inches</text>
 </plain>
 <libraries>
 <library name="template_temp">
