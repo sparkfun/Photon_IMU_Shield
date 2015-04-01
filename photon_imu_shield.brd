@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -151,7 +151,7 @@
 </layers>
 <board>
 <plain>
-<text x="34.925" y="5.842" size="1.27" layer="21" font="vector" ratio="15" rot="R90">PHOTON IMU SHIELD</text>
+<text x="34.798" y="4.572" size="1.143" layer="21" font="vector" ratio="15" rot="R90">IMU SHIELD FOR PHOTON</text>
 <text x="17.526" y="14.732" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">SDO
 A/G</text>
 <text x="10.922" y="16.002" size="0.8128" layer="22" font="vector" ratio="15" rot="MR270">MISO</text>
@@ -252,6 +252,7 @@ M</text>
 <dimension x1="0" y1="0" x2="0" y2="35.56" x3="-11.43" y3="17.78" textsize="0.8128" textratio="15" layer="47" dtype="diameter" unit="inch"/>
 <dimension x1="2.54" y1="2.54" x2="0.889" y2="2.54" x3="1.7145" y3="-2.54" textsize="0.8128" textratio="15" layer="47" dtype="diameter" unit="inch" precision="3"/>
 <text x="0" y="-11.43" size="0.8128" layer="47" font="vector" ratio="15">Units in Inches</text>
+<text x="33.528" y="4.572" size="1.143" layer="22" font="vector" ratio="15" rot="MR90">IMU SHIELD FOR PHOTON</text>
 </plain>
 <libraries>
 <library name="template_temp">
