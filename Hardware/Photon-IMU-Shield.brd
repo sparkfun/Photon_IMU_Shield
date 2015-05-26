@@ -220,7 +220,7 @@ A/G</text>
 <wire x1="34.7047125" y1="28.776678125" x2="34.302653125" y2="28.978984375" width="0.2032" layer="21"/>
 <wire x1="0" y1="35.56" x2="35.56" y2="35.56" width="0.2032" layer="20"/>
 <wire x1="35.56" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
-<text x="4.572" y="0.381" size="1.016" layer="16" ratio="15" rot="MR0">v10</text>
+<text x="4.572" y="0.381" size="1.016" layer="16" font="vector" ratio="15" rot="MR0">v10</text>
 <wire x1="-2.54" y1="2.54" x2="0" y2="0" width="0.2032" layer="20" curve="90"/>
 <wire x1="38.1" y1="2.54" x2="35.56" y2="0" width="0.2032" layer="20" curve="-90"/>
 <wire x1="38.1" y1="2.54" x2="38.1" y2="33.02" width="0.2032" layer="20"/>
